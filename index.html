@@ -5,22 +5,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Langar&family=Oswald&display=swap" rel="stylesheet">
 </head>
-<body style="overflow: hidden;">
-	<script type="text/javascript">  
-	setInterval(function () {  
-	 date = new Date(),  
-	 h = date.getHours(),  
-	 m = date.getMinutes(),  
-	 s = date.getSeconds(),  
-	 h = (h < 10) ? '0' + h : h,  
-	 m = (m < 10) ? '0' + m : m,  
-	 s = (s < 10) ? '0' + s : s,  
-	 document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
-	}, 1000);
-	</script>
+<body style="overflow: hidden; background-color: none;">
+	<script src="https://www.maxivimax.ru.com/clock/flagsANDscripts.js"></script>
 
-	<span style="color:black; font-size:170pt; padding:5px; font-family: 'Oswald', sans-serif;">
-		<span id="time" style="display: block;text-align: center;">00:00:00</span>
+	<span style="color:black;  padding:5px; font-family: 'Oswald', sans-serif;display: block;text-align: center;">
+		<span id="dmy" style="display: block;text-align: center;font-size:50pt;">Сервер наверное сдох...</span>
+		<span id="time" style="display: block;text-align: center;font-size:50pt;">(если вы это видите более 5 секунд)</span>
 	</span>
 </body>
 </html>
