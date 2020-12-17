@@ -64,5 +64,6 @@
 		 }
 
 	 document.getElementById('time').innerHTML = h + ':' + m + ":" + s; 
+		
 	 document.getElementById('dmy').innerHTML = datee + ' ' + mou + ' ' + yearr;  
 	}, 1000);
