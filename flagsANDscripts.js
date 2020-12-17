@@ -64,6 +64,5 @@
 		 }
 
 	 document.getElementById('time').innerHTML = h + ':' + m;  
-	 document.getElementById('seconds').innerHTML = s;  
 	 document.getElementById('dmy').innerHTML = datee + ' ' + mou + ' ' + yearr;  
 	}, 1000);
