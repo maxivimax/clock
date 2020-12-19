@@ -20,46 +20,46 @@
 	if(mouth == 1){
 		mou = "Января"
 	}
-	elif(mouth == 2){
+	if(mouth == 2){
 	 	mou = "Февраля"
 	}
 
-	elif(mouth == 3){
+	if(mouth == 3){
 		 	mou = "Марта"
 		 }
 
-	elif(mouth == 4){
+	if(mouth == 4){
 		 	mou = "Апреля"
 		 }
 
-	elif(mouth == 5){
+	if(mouth == 5){
 		 	mou = "Мая"
 		 }
-	elif(mouth == 6){
+	if(mouth == 6){
 		 	mou = "Июня"
 		 }
 
-	elif(mouth == 7){
+	if(mouth == 7){
 		 	mou = "Июля"
 		 }
 
-	elif(mouth == 8){
+	if(mouth == 8){
 			mou = "Августа"
 		 }
 
-	elif(mouth == 9){
+	if(mouth == 9){
 		 	mou = "Сентября"
 		 }
 
-	elif(mouth == 10){
+	if(mouth == 10){
 		 	mou = "Октября"
 		 }
 
-	elif(mouth == 11){
+	if(mouth == 11){
 		 	mou = "Ноября"
 		 }
 
-	elif(mouth == 12){
+	if(mouth == 12){
 		 	mou = "Декабря"
 		 }
 
