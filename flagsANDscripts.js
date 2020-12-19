@@ -18,49 +18,49 @@
 	 yearr = date.getFullYear()
 
 	if(mouth == 1){
-		mou = "Января"
+		mou = "Февраля"
 	}
 	if(mouth == 2){
-	 	mou = "Февраля"
+	 	mou = "Марта"
 	}
 
 	if(mouth == 3){
-		 	mou = "Марта"
-		 }
-
-	if(mouth == 4){
 		 	mou = "Апреля"
 		 }
 
-	if(mouth == 5){
+	if(mouth == 4){
 		 	mou = "Мая"
 		 }
-	if(mouth == 6){
+
+	if(mouth == 5){
 		 	mou = "Июня"
 		 }
-
-	if(mouth == 7){
+	if(mouth == 6){
 		 	mou = "Июля"
 		 }
 
+	if(mouth == 7){
+		 	mou = "Августа"
+		 }
+
 	if(mouth == 8){
-			mou = "Августа"
+			mou = "Сентября"
 		 }
 
 	if(mouth == 9){
-		 	mou = "Сентября"
-		 }
-
-	if(mouth == 10){
 		 	mou = "Октября"
 		 }
 
-	if(mouth == 11){
+	if(mouth == 10){
 		 	mou = "Ноября"
 		 }
 
-	if(mouth == 12){
+	if(mouth == 11){
 		 	mou = "Декабря"
+		 }
+
+	if(mouth == 12){
+		 	mou = "Января"
 		 }
 
 	 document.getElementById('time').innerHTML = h + ':' + m + ":" + s; 
