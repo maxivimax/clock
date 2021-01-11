@@ -16,6 +16,8 @@
 	 mouth = date.getMonth(),
 	 datee = date.getDate(),
 	 yearr = date.getFullYear()
+		
+	alert(mouth + " " + datee + " " + yearr);
 
 	if(mouth == 1){
 		mou = "Февраля"
