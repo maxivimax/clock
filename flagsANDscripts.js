@@ -69,5 +69,5 @@
 
 	 document.getElementById('time').innerHTML = h + ':' + m + ":" + s; 
 		
-	 document.getElementById('dmy').innerHTML = datee + ' ' + mou + ' ' + yearr;  
+	 document.getElementById('dmy').innerHTML = datee + ' ' + mouth + ' ' + yearr;  
 	}, 1000);
