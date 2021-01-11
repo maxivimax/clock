@@ -17,8 +17,10 @@
 	 datee = date.getDate(),
 	 yearr = date.getFullYear()
 		
-	alert(mouth + " " + datee + " " + yearr);
-
+	console.log(datee);
+	console.log(mouth);
+	console.log(yearr);
+	
 	if(mouth == 1){
 		mou = "Февраля"
 	}
